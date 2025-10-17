@@ -3,15 +3,15 @@
 	"id": "charmncraft",
 	"version": "${version}",
 	"name": "CharmNCraft",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "CharmNCraft adds culinary delights across three themed collections: Golden Foods (premium variants), Ender's Delight (End-themed cuisine), and Casualness Delight (comfort foods from various cultures).",
 	"authors": [
-		"Me!"
+		"Charmed"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/LiterallyLink/CharmNCrafts-Culinary-Delights",
+		"sources": "https://github.com/LiterallyLink/CharmNCrafts-Culinary-Delights"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/charmncraft/icon.png",
 	"environment": "*",
 	"entrypoints": {

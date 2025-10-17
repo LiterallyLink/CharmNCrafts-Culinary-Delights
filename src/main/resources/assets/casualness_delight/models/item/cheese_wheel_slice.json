@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "charmncraft:item/cheese_wheel_slice"
-  }
-}
-

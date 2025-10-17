@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"Pie": "charmncraft:block/stargazy_pie",
-		"particle":"casualness_delight:block/stargazy_pie"
+		"particle":"charmncraft:block/stargazy_pie"
 	},
 	"elements": [
 		{

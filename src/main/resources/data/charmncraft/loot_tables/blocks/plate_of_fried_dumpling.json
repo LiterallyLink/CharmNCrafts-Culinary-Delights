@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "charmncraft:plate_of_fried_dumpling"
+    }],
+    "conditions": [{
+      "condition": "minecraft:survives_explosion"
+    }]
+  }]
+}
+

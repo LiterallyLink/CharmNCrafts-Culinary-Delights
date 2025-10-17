@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"particle": "charmncraft:block/cheese_wheel",
-		"Cheese": "casualness_delight:block/cheese_wheel"
+		"Cheese": "charmncraft:block/cheese_wheel"
 	},
 	"elements": [
 		{

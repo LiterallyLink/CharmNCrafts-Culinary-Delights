@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"particle": "charmncraft:block/quiche_lorraine",
-		"Pie": "casualness_delight:block/quiche_lorraine"
+		"Pie": "charmncraft:block/quiche_lorraine"
 	},
 	"elements": [
 		{
