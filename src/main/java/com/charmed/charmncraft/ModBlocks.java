@@ -2,6 +2,9 @@ package com.charmed.charmncraft;
 
 import com.charmed.charmncraft.blocks.ChorusPieBlock;
 import com.charmed.charmncraft.blocks.EndstoneStoveBlock;
+import com.charmed.charmncraft.blocks.FoodBlockWithBites;
+import com.charmed.charmncraft.blocks.FoodBlockWithBitesAndFacing;
+import com.charmed.charmncraft.blocks.FoodBlockWithServings;
 import com.charmed.charmncraft.blocks.GoldenCakeBlock;
 import com.charmed.charmncraft.blocks.StuffedShulkerBlock;
 import net.minecraft.block.AbstractBlock;
@@ -42,23 +45,23 @@ public class ModBlocks {
 
     // ==================== CASUALNESS DELIGHT BLOCKS ====================
     public static final Block BOBO_CHICKEN = registerBlock("bobo_chicken",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block CHEESE_WHEEL = registerBlock("cheese_wheel",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithBites(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block RAW_CHEESE_WHEEL = registerBlock("raw_cheese_wheel",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block PAPER_WRAPPED_FISH = registerBlock("paper_wrapped_fish",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block PLATE_OF_FRIED_DUMPLING = registerBlock("plate_of_fried_dumpling",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block QUICHE_LORRAINE = registerBlock("quiche_lorraine",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithBitesAndFacing(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 4));
     public static final Block SPRING_ROLL_MEDLEY = registerBlock("spring_roll_medley",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 6));
     public static final Block STARGAZY_PIE = registerBlock("stargazy_pie",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithBitesAndFacing(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 4));
     public static final Block SWEET_RICE = registerBlock("sweet_rice",
-            new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
+            new FoodBlockWithServings(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), 4));
     public static final Block DEEP_FRYING_PAN = registerBlock("deep_frying_pan",
             new Block(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
