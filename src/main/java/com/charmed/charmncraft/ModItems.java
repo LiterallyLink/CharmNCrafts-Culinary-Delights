@@ -98,21 +98,21 @@ public class ModItems {
     public static final Item STARGAZY_PIE_SLICE = registerItem("stargazy_pie_slice", new Item(new Item.Settings().food(ModFoods.STARGAZY_PIE_SLICE)));
 
     // Gluten Products
-    public static final Item GLUTEN = registerItem("gluten", new Item(new Item.Settings().food(ModFoods.GLUTEN)));
+    public static final Item GLUTEN = registerItem("gluten", new Item(new Item.Settings()));
     public static final Item ROAST_GLUTEN = registerItem("roast_gluten", new Item(new Item.Settings().food(ModFoods.ROAST_GLUTEN)));
-    public static final Item GLUTEN_SKEWER = registerItem("gluten_skewer", new Item(new Item.Settings().food(ModFoods.GLUTEN_SKEWER)));
+    public static final Item GLUTEN_SKEWER = registerItem("gluten_skewer", new Item(new Item.Settings()));
 
     // Raw Items
-    public static final Item RAW_FRIED_DUMPLING = registerItem("raw_fried_dumpling", new Item(new Item.Settings().food(ModFoods.RAW_FRIED_DUMPLING)));
-    public static final Item RAW_SPRING_ROLL = registerItem("raw_spring_roll", new Item(new Item.Settings().food(ModFoods.RAW_SPRING_ROLL)));
-    public static final Item RAW_GLUTEN = registerItem("raw_gluten", new Item(new Item.Settings().food(ModFoods.RAW_GLUTEN)));
-    public static final Item RAW_CABBAGE_BOBO_CHICKEN = registerItem("raw_cabbage_bobo_chicken", new Item(new Item.Settings().food(ModFoods.RAW_CABBAGE_BOBO_CHICKEN)));
+    public static final Item RAW_FRIED_DUMPLING = registerItem("raw_fried_dumpling", new Item(new Item.Settings()));
+    public static final Item RAW_SPRING_ROLL = registerItem("raw_spring_roll", new Item(new Item.Settings()));
+    public static final Item RAW_GLUTEN = registerItem("raw_gluten", new Item(new Item.Settings()));
+    public static final Item RAW_CABBAGE_BOBO_CHICKEN = registerItem("raw_cabbage_bobo_chicken", new Item(new Item.Settings()));
     public static final Item CABBAGE_BOBO_CHICKEN = registerItem("cabbage_bobo_chicken", new Item(new Item.Settings().food(ModFoods.CABBAGE_BOBO_CHICKEN)));
-    public static final Item RAW_CHICKEN_BOBO_CHICKEN = registerItem("raw_chicken_bobo_chicken", new Item(new Item.Settings().food(ModFoods.RAW_CHICKEN_BOBO_CHICKEN)));
+    public static final Item RAW_CHICKEN_BOBO_CHICKEN = registerItem("raw_chicken_bobo_chicken", new Item(new Item.Settings()));
     public static final Item CHICKEN_BOBO_CHICKEN = registerItem("chicken_bobo_chicken", new Item(new Item.Settings().food(ModFoods.CHICKEN_BOBO_CHICKEN)));
-    public static final Item RAW_POTATO_BOBO_CHICKEN = registerItem("raw_potato_bobo_chicken", new Item(new Item.Settings().food(ModFoods.RAW_POTATO_BOBO_CHICKEN)));
+    public static final Item RAW_POTATO_BOBO_CHICKEN = registerItem("raw_potato_bobo_chicken", new Item(new Item.Settings()));
     public static final Item POTATO_BOBO_CHICKEN = registerItem("potato_bobo_chicken", new Item(new Item.Settings().food(ModFoods.POTATO_BOBO_CHICKEN)));
-    public static final Item POTATO_SLICE = registerItem("potato_slice", new Item(new Item.Settings().food(ModFoods.POTATO_SLICE)));
+    public static final Item POTATO_SLICE = registerItem("potato_slice", new Item(new Item.Settings()));
 
     // Meat Products
     public static final Item COOKED_DONKEY_MEAT = registerItem("cooked_donkey_meat", new Item(new Item.Settings().food(ModFoods.COOKED_DONKEY_MEAT)));

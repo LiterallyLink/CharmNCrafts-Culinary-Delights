@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -25,7 +24,7 @@ public class CharmNCraft implements ModInitializer {
     public static final String MOD_ID = "charmncraft";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    // Golden Foods Item Group
+    // Golden Foods
     public static final ItemGroup GOLDEN_FOODS_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.GOLDEN_COOKIE))
             .displayName(Text.literal("Golden Foods"))
@@ -53,12 +52,11 @@ public class CharmNCraft implements ModInitializer {
                 entries.add(ModItems.GOLDEN_RABBIT_STEW);
                 entries.add(ModItems.GOLDEN_SWEET_BERRIES);
                 
-                // Golden Food Blocks
                 entries.add(ModBlocks.GOLDEN_CAKE);
             })
             .build();
 
-    // Ender's Delight Item Group
+    // Ender's Delight
     public static final ItemGroup ENDERS_DELIGHT_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.ENDER_PAELLA))
             .displayName(Text.literal("Ender's Delight"))
@@ -83,7 +81,6 @@ public class CharmNCraft implements ModInitializer {
                 entries.add(ModItems.UNCANNY_COOKIES);
                 entries.add(ModItems.STRANGE_ECLAIR);
 
-                // Blocks
                 entries.add(ModBlocks.ENDSTONE_STOVE);
                 entries.add(ModBlocks.CHORUS_CRATE);
                 entries.add(ModBlocks.CHORUS_PIE);
@@ -91,7 +88,7 @@ public class CharmNCraft implements ModInitializer {
             })
             .build();
 
-    // Casualness Delight Item Group
+    // Casualness Delight
     public static final ItemGroup CASUALNESS_DELIGHT_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModBlocks.BOBO_CHICKEN))
             .displayName(Text.literal("Casualness Delight"))
@@ -168,12 +165,10 @@ public class CharmNCraft implements ModInitializer {
         ModItems.initialize();
         ModEffects.initialize();
 
-        // Register the custom item groups (3 categories only)
         Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "golden_foods"), GOLDEN_FOODS_GROUP);
         Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "enders_delight"), ENDERS_DELIGHT_GROUP);
         Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID, "casualness_delight"), CASUALNESS_DELIGHT_GROUP);
 
-        // Add items to creative tabs
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(ModItems.GOLDEN_BAKED_POTATO);
             entries.add(ModItems.GOLDEN_BEETROOT);

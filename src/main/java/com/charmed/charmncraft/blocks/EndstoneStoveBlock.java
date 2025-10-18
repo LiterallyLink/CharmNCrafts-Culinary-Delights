@@ -45,11 +45,9 @@ public class EndstoneStoveBlock extends HorizontalFacingBlock {
             return ActionResult.SUCCESS;
         }
         
-        // Toggle the LIT state
         boolean isLit = state.get(LIT);
         world.setBlockState(pos, state.with(LIT, !isLit), Block.NOTIFY_ALL);
         
-        // Play sound when toggling
         if (!isLit) {
             world.playSound(null, pos, SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, 1.0F);
         } else {
@@ -66,7 +64,6 @@ public class EndstoneStoveBlock extends HorizontalFacingBlock {
             double y = (double)pos.getY();
             double z = (double)pos.getZ() + 0.5;
             
-            // Play furnace sound randomly (10% chance per tick)
             if (random.nextDouble() < 0.1) {
                 world.playSound(x, y, z, SoundEvents.BLOCK_FURNACE_FIRE_CRACKLE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
             }
@@ -77,12 +74,10 @@ public class EndstoneStoveBlock extends HorizontalFacingBlock {
             double xOffset = axis == Direction.Axis.X ? (double)facing.getOffsetX() * 0.52 : horizontalOffset;
             double yOffset = random.nextDouble() * 6.0 / 16.0;
             double zOffset = axis == Direction.Axis.Z ? (double)facing.getOffsetZ() * 0.52 : horizontalOffset;
-            
-            // Spawn smoke particles
-            world.addParticle(ParticleTypes.SMOKE, x + xOffset, y + yOffset, z + zOffset, 0.0, 0.0, 0.0);
-            
-            // Spawn flame particles
-            world.addParticle(ParticleTypes.FLAME, x + xOffset, y + yOffset, z + zOffset, 0.0, 0.0, 0.0);
+
+            if (random.nextDouble() < 0.4) {
+                world.addParticle(ParticleTypes.DRAGON_BREATH, x + xOffset, y + yOffset, z + zOffset, 0.0, 0.0, 0.0);
+            }
         }
     }
 }
