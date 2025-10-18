@@ -5,6 +5,7 @@ import com.charmed.charmncraft.blocks.ConfigurableFoodBlock;
 import com.charmed.charmncraft.blocks.DeepFryingPanBlock;
 import com.charmed.charmncraft.blocks.EndstoneStoveBlock;
 import com.charmed.charmncraft.blocks.FriedDumplingBlock;
+import com.charmed.charmncraft.blocks.RawCheeseWheelBlock;
 import com.charmed.charmncraft.blocks.SpringRollMedleyBlock;
 import com.charmed.charmncraft.blocks.StuffedShulkerBlock;
 import com.charmed.charmncraft.blocks.SweetRiceBlock;
@@ -65,13 +66,7 @@ public class ModBlocks {
                     .nutrition(2, 0.2F)
                     .build());
     public static final Block RAW_CHEESE_WHEEL = registerBlock("raw_cheese_wheel",
-            new ConfigurableFoodBlock.Builder(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), "raw_cheese_wheel")
-                    .maxBites(6)
-                    .withFacing()
-                    .dimensions(14.0, 8.0, 14.0)
-                    .nutrition(1, 0.1F)
-                    .countsDown()
-                    .build());
+            new RawCheeseWheelBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
     public static final Block PAPER_WRAPPED_FISH = registerBlock("paper_wrapped_fish",
             new ConfigurableFoodBlock.Builder(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS), "paper_wrapped_fish")
                     .maxBites(6)

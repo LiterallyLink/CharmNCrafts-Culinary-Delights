@@ -1,73 +1,23 @@
 {
   "variants": {
-    "ferment=0": [
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_0"
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_0",
-        "y": 90
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_0",
-        "y": 180
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_0",
-        "y": 270
-      }
-    ],
-    "ferment=1": [
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_1"
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_1",
-        "y": 90
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_1",
-        "y": 180
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_1",
-        "y": 270
-      }
-    ],
-    "ferment=2": [
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_2"
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_2",
-        "y": 90
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_2",
-        "y": 180
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_2",
-        "y": 270
-      }
-    ],
-    "ferment=3": [
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_3"
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_3",
-        "y": 90
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_3",
-        "y": 180
-      },
-      {
-        "model": "charmncraft:block/raw_cheese_wheel_3",
-        "y": 270
-      }
-    ]
+    "ferment=0,facing=north": { "model": "charmncraft:block/raw_cheese_wheel_0" },
+    "ferment=0,facing=south": { "model": "charmncraft:block/raw_cheese_wheel_0", "y": 180 },
+    "ferment=0,facing=east": { "model": "charmncraft:block/raw_cheese_wheel_0", "y": 90 },
+    "ferment=0,facing=west": { "model": "charmncraft:block/raw_cheese_wheel_0", "y": 270 },
+    
+    "ferment=1,facing=north": { "model": "charmncraft:block/raw_cheese_wheel_1" },
+    "ferment=1,facing=south": { "model": "charmncraft:block/raw_cheese_wheel_1", "y": 180 },
+    "ferment=1,facing=east": { "model": "charmncraft:block/raw_cheese_wheel_1", "y": 90 },
+    "ferment=1,facing=west": { "model": "charmncraft:block/raw_cheese_wheel_1", "y": 270 },
+    
+    "ferment=2,facing=north": { "model": "charmncraft:block/raw_cheese_wheel_2" },
+    "ferment=2,facing=south": { "model": "charmncraft:block/raw_cheese_wheel_2", "y": 180 },
+    "ferment=2,facing=east": { "model": "charmncraft:block/raw_cheese_wheel_2", "y": 90 },
+    "ferment=2,facing=west": { "model": "charmncraft:block/raw_cheese_wheel_2", "y": 270 },
+    
+    "ferment=3,facing=north": { "model": "charmncraft:block/raw_cheese_wheel_3" },
+    "ferment=3,facing=south": { "model": "charmncraft:block/raw_cheese_wheel_3", "y": 180 },
+    "ferment=3,facing=east": { "model": "charmncraft:block/raw_cheese_wheel_3", "y": 90 },
+    "ferment=3,facing=west": { "model": "charmncraft:block/raw_cheese_wheel_3", "y": 270 }
   }
 }
-
