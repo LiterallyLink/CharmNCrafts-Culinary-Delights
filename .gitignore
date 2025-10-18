@@ -35,3 +35,4 @@ logs/
 
 # Uncomment this line to allow only the output jar:
 # !build/libs/*.jar
+*.log
