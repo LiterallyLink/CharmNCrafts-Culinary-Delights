@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/cabbage"
+    },
+    {
+      "tag": "c:vegetables/cabbage"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "charmncraft:raw_cabbage_bobo_chicken",
+    "count": 3
+  }
+}

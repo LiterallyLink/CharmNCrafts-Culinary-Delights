@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "charmncraft:raw_chicken_bobo_chicken"
+  },
+  "result": "charmncraft:chicken_bobo_chicken"
+}

@@ -41,22 +41,19 @@ import java.io.InputStream;
  * @author CharmNCraft Development Team
  */
 public class ConfigurableFoodBlock extends Block {
-    // Property names
     public static final IntProperty BITES = Properties.BITES;
     public static final IntProperty SERVINGS = IntProperty.of("servings", 0, 6);
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
     
-    // Configuration
     private final int maxBites;
     private final boolean hasFacing;
     private final boolean shrinkingShape;
     private final VoxelShape constantShape;
     private final int hungerRestored;
     private final float saturationRestored;
-    private final boolean countsDown; // true = servings (counts down), false = bites (counts up)
+    private final boolean countsDown;
     private final String blockId;
     
-    // Vanilla cake shapes for reference (if using shrinking hitbox)
     private static final VoxelShape[] VANILLA_CAKE_SHAPES = new VoxelShape[]{
         Block.createCuboidShape(1.0, 0.0, 1.0, 15.0, 8.0, 15.0),
         Block.createCuboidShape(3.0, 0.0, 1.0, 15.0, 8.0, 15.0),
@@ -131,9 +128,6 @@ public class ConfigurableFoodBlock extends Block {
         }
     }
 
-    /**
-     * Private constructor - use Builder instead for readability.
-     */
     private ConfigurableFoodBlock(Settings settings, String blockId, int maxBites, boolean hasFacing,
                                   boolean shrinkingShape, double width, double height, double depth,
                                   int hungerRestored, float saturationRestored, boolean countsDown) {

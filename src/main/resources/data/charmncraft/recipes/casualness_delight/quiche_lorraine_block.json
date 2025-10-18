@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "bbb",
+    "eec",
+    "www"
+  ],
+  "key": {
+    "b": {
+      "tag": "c:foods/raw_bacon"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    },
+    "c": {
+      "item": "charmncraft:cheese_wheel_slice"
+    },
+    "w": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "charmncraft:quiche_lorraine"
+  }
+}

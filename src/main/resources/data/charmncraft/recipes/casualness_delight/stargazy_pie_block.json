@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "www",
+    "fff",
+    "eee"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wheat"
+    },
+    "f": {
+      "item": "minecraft:raw_salmon"
+    },
+    "e": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "charmncraft:stargazy_pie"
+  }
+}

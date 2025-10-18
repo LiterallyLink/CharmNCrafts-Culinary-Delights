@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "xbx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "charmncraft:chicken_bobo_chicken"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "charmncraft:bobo_chicken"
+  }
+}

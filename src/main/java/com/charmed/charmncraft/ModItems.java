@@ -113,10 +113,13 @@ public class ModItems {
     public static final Item RAW_POTATO_BOBO_CHICKEN = registerItem("raw_potato_bobo_chicken", new Item(new Item.Settings()));
     public static final Item POTATO_BOBO_CHICKEN = registerItem("potato_bobo_chicken", new Item(new Item.Settings().food(ModFoods.POTATO_BOBO_CHICKEN)));
     public static final Item POTATO_SLICE = registerItem("potato_slice", new Item(new Item.Settings()));
+    public static final Item RAW_BREADED_PORKCHOP = registerItem("raw_breaded_porkchop", new Item(new Item.Settings()));
 
     // Meat Products
     public static final Item COOKED_DONKEY_MEAT = registerItem("cooked_donkey_meat", new Item(new Item.Settings().food(ModFoods.COOKED_DONKEY_MEAT)));
     public static final Item RAW_DONKEY_MEAT = registerItem("raw_donkey_meat", new Item(new Item.Settings().food(ModFoods.RAW_DONKEY_MEAT)));
+
+    public static final Item BREAD_CRUMBS = registerItem("bread_crumbs", new Item(new Item.Settings().food(ModFoods.BREAD_CRUMBS)));
 
     /**
      * Registers an item with the charmncraft namespace.

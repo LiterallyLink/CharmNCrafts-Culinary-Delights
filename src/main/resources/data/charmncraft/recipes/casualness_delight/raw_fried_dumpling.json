@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "c:vegetables"
+    },
+    {
+      "tag": "c:raw_meat"
+    }
+  ],
+  "result": {
+    "item": "charmncraft:raw_fried_dumpling",
+    "count": 4
+  }
+}

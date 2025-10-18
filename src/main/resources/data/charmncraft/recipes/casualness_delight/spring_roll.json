@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "charmncraft:raw_spring_roll"
+  },
+  "result": "charmncraft:spring_roll"
+}

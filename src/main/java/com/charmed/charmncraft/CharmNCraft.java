@@ -134,6 +134,7 @@ public class CharmNCraft implements ModInitializer {
                 entries.add(ModItems.GLUTEN);
                 entries.add(ModItems.ROAST_GLUTEN);
                 entries.add(ModItems.GLUTEN_SKEWER);
+                entries.add(ModItems.BREAD_CRUMBS);
 
                 // Raw items
                 entries.add(ModItems.RAW_FRIED_DUMPLING);
@@ -146,6 +147,7 @@ public class CharmNCraft implements ModInitializer {
                 entries.add(ModItems.RAW_POTATO_BOBO_CHICKEN);
                 entries.add(ModItems.POTATO_BOBO_CHICKEN);
                 entries.add(ModItems.POTATO_SLICE);
+                entries.add(ModItems.RAW_BREADED_PORKCHOP);
 
                 // Meat products
                 entries.add(ModItems.COOKED_DONKEY_MEAT);
@@ -154,7 +156,6 @@ public class CharmNCraft implements ModInitializer {
                 // Special blocks
                 entries.add(ModBlocks.PLATE_OF_FRIED_DUMPLING);
                 entries.add(ModBlocks.RAW_CHEESE_WHEEL);
-                entries.add(ModBlocks.DEEP_FRYING_PAN);
             })
             .build();
 
@@ -266,7 +267,6 @@ public class CharmNCraft implements ModInitializer {
             entries.add(ModBlocks.SPRING_ROLL_MEDLEY);
             entries.add(ModBlocks.STARGAZY_PIE);
             entries.add(ModBlocks.SWEET_RICE);
-            entries.add(ModBlocks.DEEP_FRYING_PAN);
         });
 
         LOGGER.info("[CharmNCraft] Mod initialization complete. Items registered: {}", ModItems.getRegisteredItemCount());

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "charmncraft:fried_fish"
+    },
+    {
+      "item": "charmncraft:potato_chip"
+    },
+    {
+      "item": "charmncraft:potato_chip"
+    }
+  ],
+  "result": {
+    "item": "charmncraft:fish_and_chips",
+    "count": 1
+  }
+}

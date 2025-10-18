@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "mmm",
+    "mbm",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "minecraft:milk_bucket"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "charmncraft:raw_cheese_wheel"
+  }
+}

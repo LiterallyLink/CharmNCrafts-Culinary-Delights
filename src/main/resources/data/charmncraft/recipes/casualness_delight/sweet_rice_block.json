@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "srs",
+    "rbr",
+    "srs"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "r": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "charmncraft:sweet_rice"
+  }
+}

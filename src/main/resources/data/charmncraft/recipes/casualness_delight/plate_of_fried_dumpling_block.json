@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ddd",
+    "ddd",
+    " p "
+  ],
+  "key": {
+    "d": {
+      "item": "charmncraft:fried_dumpling"
+    },
+    "p": {
+      "item": "farmersdelight:plate"
+    }
+  },
+  "result": {
+    "item": "charmncraft:plate_of_fried_dumpling"
+  }
+}

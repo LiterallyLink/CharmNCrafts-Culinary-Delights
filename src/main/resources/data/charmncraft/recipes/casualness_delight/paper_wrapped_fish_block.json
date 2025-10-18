@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ppp",
+    "fff",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "f": {
+      "tag": "c:cooked_fishes"
+    }
+  },
+  "result": {
+    "item": "charmncraft:paper_wrapped_fish"
+  }
+}

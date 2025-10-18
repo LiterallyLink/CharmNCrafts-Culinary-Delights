@@ -58,7 +58,6 @@ public class BoboChickenBlock extends Block {
         world.emitGameEvent(player, GameEvent.EAT, pos);
 
         if (newServings < 0) {
-            // Last serving - drop only a bowl (no food item)
             ItemStack bowl = new ItemStack(Items.BOWL);
             ItemEntity bowlEntity = new ItemEntity(world, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, bowl);
             world.spawnEntity(bowlEntity);
@@ -67,13 +66,11 @@ public class BoboChickenBlock extends Block {
             world.removeBlock(pos, false);
             world.emitGameEvent(player, GameEvent.BLOCK_DESTROY, pos);
         } else {
-            // Not the last serving - give Potato Bobo Chicken item
             ItemStack potatoBoboChicken = new ItemStack(ModItems.POTATO_BOBO_CHICKEN);
             if (!player.getInventory().insertStack(potatoBoboChicken)) {
                 player.dropItem(potatoBoboChicken, false);
             }
             
-            // Update servings count
             world.setBlockState(pos, state.with(SERVINGS, newServings), Block.NOTIFY_ALL);
         }
 

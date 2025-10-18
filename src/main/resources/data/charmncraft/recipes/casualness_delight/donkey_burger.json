@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "charmncraft:cooked_donkey_meat"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "c:vegetables"
+    }
+  ],
+  "result": {
+    "item": "charmncraft:donkey_burger",
+    "count": 1
+  }
+}

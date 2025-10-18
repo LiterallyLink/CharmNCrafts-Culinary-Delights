@@ -2,7 +2,6 @@ package com.charmed.charmncraft;
 
 import com.charmed.charmncraft.blocks.BoboChickenBlock;
 import com.charmed.charmncraft.blocks.ConfigurableFoodBlock;
-import com.charmed.charmncraft.blocks.DeepFryingPanBlock;
 import com.charmed.charmncraft.blocks.EndstoneStoveBlock;
 import com.charmed.charmncraft.blocks.FriedDumplingBlock;
 import com.charmed.charmncraft.blocks.RawCheeseWheelBlock;
@@ -95,9 +94,6 @@ public class ModBlocks {
                     .build());
     public static final Block SWEET_RICE = registerBlock("sweet_rice",
             new SweetRiceBlock(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).nonOpaque()));
-    public static final Block DEEP_FRYING_PAN = registerBlock("deep_frying_pan",
-            new DeepFryingPanBlock(AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)
-                    .nonOpaque()));
 
     /**
      * Registers a block and its corresponding BlockItem.

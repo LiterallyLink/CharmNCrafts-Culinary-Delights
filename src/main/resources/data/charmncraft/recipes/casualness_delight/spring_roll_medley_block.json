@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "sss",
+    "sss",
+    " p "
+  ],
+  "key": {
+    "s": {
+      "item": "charmncraft:spring_roll"
+    },
+    "p": {
+      "item": "farmersdelight:plate"
+    }
+  },
+  "result": {
+    "item": "charmncraft:spring_roll_medley"
+  }
+}
