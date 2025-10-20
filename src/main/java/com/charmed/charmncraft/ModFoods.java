@@ -374,8 +374,6 @@ public class ModFoods {
             .hunger(3).saturationModifier(0.2f).build();
     public static final FoodComponent ROAST_GLUTEN = new FoodComponent.Builder()
             .hunger(6).saturationModifier(0.6f).build();
-    public static final FoodComponent GLUTEN_SKEWER = new FoodComponent.Builder()
-            .hunger(5).saturationModifier(0.5f).build();
     public static final FoodComponent COOKED_DONKEY_MEAT = new FoodComponent.Builder()
             .hunger(8).saturationModifier(0.8f).build();
     public static final FoodComponent PLATE_OF_FRIED_DUMPLING = new FoodComponent.Builder()
