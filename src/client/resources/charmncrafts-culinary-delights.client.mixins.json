@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "charmncrafts.delights.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
