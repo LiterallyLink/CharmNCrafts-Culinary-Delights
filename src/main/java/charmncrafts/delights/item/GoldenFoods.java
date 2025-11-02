@@ -127,7 +127,6 @@ public class GoldenFoods {
 
     // Enchanted specials (5 minutes saturation effect, Level II)
     public static final Item ENCHANTED_GOLDEN_CARROT = registerFood("enchanted_golden_carrot", ENCHANTED_CAKE_FOOD);
-    public static final Item ENCHANTED_GOLDEN_CAKE = registerFood("enchanted_golden_cake", ENCHANTED_CAKE_FOOD);
 
     private static Item registerFood(String name, FoodComponent food) {
         return Registry.register(

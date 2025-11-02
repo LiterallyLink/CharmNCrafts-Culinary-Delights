@@ -5,6 +5,8 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import charmncrafts.delights.block.GoldenCakes;
+import charmncrafts.delights.item.GoldenCakeItems;
 import charmncrafts.delights.item.GoldenFoods;
 import charmncrafts.delights.item.ModItemGroups;
 
@@ -23,11 +25,17 @@ public class CharmNCraftsCulinaryDelights implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Initializing CharmNCrafts Culinary Delights!");
-		
+
 		// Register golden foods
 		GoldenFoods.initialize();
 		LOGGER.info("Golden Foods registered!");
-		
+
+		// Register golden cake blocks and items
+		GoldenCakes.initialize();
+		LOGGER.info("Golden Cake blocks registered!");
+		GoldenCakeItems.initialize();
+		LOGGER.info("Golden Cake items registered!");
+
 		// Create custom creative tab
 		ModItemGroups.registerItemGroups();
 		LOGGER.info("Custom creative tab created!");
