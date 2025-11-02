@@ -58,9 +58,8 @@ public class ModItemGroups {
                     entries.add(GoldenFoods.GOLDEN_MILK_BUCKET);
                     entries.add(GoldenFoods.GOLDEN_HONEY_BOTTLE);
                     
-                    // Cakes and enchanted specials
+                    // Cakes
                     entries.add(GoldenCakeItems.GOLDEN_CAKE);
-                    entries.add(GoldenFoods.ENCHANTED_GOLDEN_CARROT);
                     entries.add(GoldenCakeItems.ENCHANTED_GOLDEN_CAKE);
                 })
                 .build()
