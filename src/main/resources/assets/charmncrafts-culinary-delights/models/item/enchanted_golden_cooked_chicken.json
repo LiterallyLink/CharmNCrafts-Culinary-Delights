@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "golden_foods:item/golden_cooked_chicken"
+    "layer0": "charmncrafts-culinary-delights:item/golden_cooked_chicken"
   }
 }

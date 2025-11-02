@@ -1,10 +1,10 @@
 {
     "textures": {
-        "particle": "golden_foods:block/enchanted_golden_cake_side",
-        "bottom": "golden_foods:block/enchanted_golden_cake_bottom",
-        "top": "golden_foods:block/enchanted_golden_cake_top",
-        "side": "golden_foods:block/enchanted_golden_cake_side",
-        "inside": "golden_foods:block/enchanted_golden_cake_inner"
+        "particle": "charmncrafts-culinary-delights:block/enchanted_golden_cake_side",
+        "bottom": "charmncrafts-culinary-delights:block/enchanted_golden_cake_bottom",
+        "top": "charmncrafts-culinary-delights:block/enchanted_golden_cake_top",
+        "side": "charmncrafts-culinary-delights:block/enchanted_golden_cake_side",
+        "inside": "charmncrafts-culinary-delights:block/enchanted_golden_cake_inner"
     },
     "elements": [
         {   "from": [ 13, 0, 1 ],

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "golden_foods:item/enchanted_golden_cake_alt"
+    "layer0": "charmncrafts-culinary-delights:item/enchanted_golden_cake_alt"
   }
 }
