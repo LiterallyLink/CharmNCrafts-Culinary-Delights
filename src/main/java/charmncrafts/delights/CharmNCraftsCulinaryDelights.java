@@ -5,11 +5,14 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import charmncrafts.delights.block.GoldenCakes;
-import charmncrafts.delights.item.GoldenCakeItems;
-import charmncrafts.delights.item.GoldenFoods;
-import charmncrafts.delights.item.ModItemGroups;
+import charmncrafts.delights.modules.goldenfoods.GoldenFoodsModule;
 
+/**
+ * CharmNCrafts Culinary Delights
+ *
+ * An amalgamation mod that combines multiple food-related mods into one organized package.
+ * Each original mod is kept as a separate module for easy maintenance and expansion.
+ */
 public class CharmNCraftsCulinaryDelights implements ModInitializer {
 	public static final String MOD_ID = "charmncrafts-culinary-delights";
 
@@ -24,22 +27,19 @@ public class CharmNCraftsCulinaryDelights implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		LOGGER.info("==================================================");
 		LOGGER.info("Initializing CharmNCrafts Culinary Delights!");
+		LOGGER.info("==================================================");
 
-		// Register golden foods
-		GoldenFoods.initialize();
-		LOGGER.info("Golden Foods registered!");
+		// Initialize all modules
+		GoldenFoodsModule.initialize();
 
-		// Register golden cake blocks and items
-		GoldenCakes.initialize();
-		LOGGER.info("Golden Cake blocks registered!");
-		GoldenCakeItems.initialize();
-		LOGGER.info("Golden Cake items registered!");
+		// Future modules can be added here:
+		// AnotherModule.initialize();
+		// YetAnotherModule.initialize();
 
-		// Create custom creative tab
-		ModItemGroups.registerItemGroups();
-		LOGGER.info("Custom creative tab created!");
-		
+		LOGGER.info("==================================================");
 		LOGGER.info("CharmNCrafts Culinary Delights loaded successfully!");
+		LOGGER.info("==================================================");
 	}
 }

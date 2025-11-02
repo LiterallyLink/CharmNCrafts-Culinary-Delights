@@ -1,4 +1,4 @@
-package charmncrafts.delights.item;
+package charmncrafts.delights.modules.goldenfoods.items;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -13,7 +13,7 @@ public class GoldenFoods {
 
     // Different food components with varying saturation levels AND saturation effect
     // Duration in ticks: 20 ticks = 1 second, 1200 ticks = 1 minute, 6000 ticks = 5 minutes
-    
+
     // Fruits - 1.5 minutes (1800 ticks) saturation effect
     public static final FoodComponent GOLDEN_FRUIT = new FoodComponent.Builder()
         .hunger(6)
@@ -71,7 +71,7 @@ public class GoldenFoods {
         .build();
 
     // Regular golden foods with varying saturation
-    
+
     // Fruits (1.5 minutes saturation effect)
     public static final Item GOLDEN_SWEET_BERRIES = registerFood("golden_sweet_berries", GOLDEN_FRUIT);
     public static final Item GOLDEN_GLOW_BERRIES = registerFood("golden_glow_berries", GOLDEN_FRUIT);
@@ -80,12 +80,12 @@ public class GoldenFoods {
     public static final Item GOLDEN_DRIED_KELP = registerFood("golden_dried_kelp", GOLDEN_FRUIT);
 
     // Vegetables (2 minutes saturation effect)
-    public static final Item GOLDEN_BAKED_POTATO = registerFood("golden_baked_potato", 
+    public static final Item GOLDEN_BAKED_POTATO = registerFood("golden_baked_potato",
         new FoodComponent.Builder().hunger(7).saturationModifier(0.7f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 80, 0), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 2400, 0), 1.0f)
             .alwaysEdible().build());
-    
+
     public static final Item GOLDEN_BEETROOT = registerFood("golden_beetroot",
         new FoodComponent.Builder().hunger(7).saturationModifier(0.7f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 80, 0), 1.0f)
@@ -103,13 +103,13 @@ public class GoldenFoods {
 
     // Breads and baked goods (2.5 minutes base saturation effect)
     public static final Item GOLDEN_BREAD = registerFood("golden_bread", GOLDEN_BREAD_TYPE);
-    
+
     public static final Item GOLDEN_COOKIE = registerFood("golden_cookie",
         new FoodComponent.Builder().hunger(5).saturationModifier(0.9f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 60, 0), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 1500, 0), 1.0f)
             .alwaysEdible().build());
-    
+
     public static final Item GOLDEN_PUMPKIN_PIE = registerFood("golden_pumpkin_pie",
         new FoodComponent.Builder().hunger(8).saturationModifier(1.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 1), 1.0f)

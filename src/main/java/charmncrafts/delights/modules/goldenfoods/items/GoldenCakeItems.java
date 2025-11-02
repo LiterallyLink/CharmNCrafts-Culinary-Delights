@@ -1,11 +1,11 @@
-package charmncrafts.delights.item;
+package charmncrafts.delights.modules.goldenfoods.items;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import charmncrafts.delights.block.GoldenCakes;
+import charmncrafts.delights.modules.goldenfoods.blocks.GoldenCakes;
 
 public class GoldenCakeItems {
     private static final String MOD_ID = "charmncrafts-culinary-delights";

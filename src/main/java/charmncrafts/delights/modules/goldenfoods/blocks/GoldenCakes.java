@@ -1,4 +1,4 @@
-package charmncrafts.delights.block;
+package charmncrafts.delights.modules.goldenfoods.blocks;
 
 import net.minecraft.block.CakeBlock;
 import net.minecraft.registry.Registries;
@@ -10,7 +10,7 @@ public class GoldenCakes {
 
     // Golden cake - placeable, eatable
     public static final CakeBlock GOLDEN_CAKE = registerCake("golden_cake", new CakeBlock(createSettings()));
-    
+
     // Enchanted golden cake - placeable, eatable, better effects
     public static final CakeBlock ENCHANTED_GOLDEN_CAKE = registerCake("enchanted_golden_cake", new CakeBlock(createSettings()));
 
