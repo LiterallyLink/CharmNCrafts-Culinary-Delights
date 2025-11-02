@@ -1,5 +1,6 @@
 package charmncrafts.delights.item;
 
+import charmncrafts.delights.item.GoldenCakeItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -57,9 +58,10 @@ public class ModItemGroups {
                     entries.add(GoldenFoods.GOLDEN_MILK_BUCKET);
                     entries.add(GoldenFoods.GOLDEN_HONEY_BOTTLE);
                     
-                    // Enchanted specials
+                    // Cakes and enchanted specials
+                    entries.add(GoldenCakeItems.GOLDEN_CAKE);
                     entries.add(GoldenFoods.ENCHANTED_GOLDEN_CARROT);
-                    entries.add(GoldenFoods.ENCHANTED_GOLDEN_CAKE);
+                    entries.add(GoldenCakeItems.ENCHANTED_GOLDEN_CAKE);
                 })
                 .build()
         );
